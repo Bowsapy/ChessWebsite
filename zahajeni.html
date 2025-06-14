@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="obrazky/strategy.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Šachy</title>
+    <script src="script.js"></script>
+</head>
+
+<body class="body0">
+    <header>
+        <h1 class="nadpis2">Záhajení</h1>
+    </header>
+    <nav>
+        <a href="index.html">Úvod</a>
+        <a href="historie.html">Historie</a>
+        <a href="zahajeni.html">Zahájení</a>
+        <a href="hraci.html">Nejlepší hráči</a>
+        <a href="vliv.html">Benefity hraní šachu</a>
+    </nav>
+   
+    <article class ="text0">
+        Zahájení představuje počáteční fázi šachové partie, během níž se obě strany snaží co nejlépe vyvinout figury a připravit se na následný boj ve střední hře. Obvykle se o zahájení mluví jako o prvních 10–15 tazích partie.
+        
+            Na počátku zmíněná obecná definice však nemusí být příliš přesná, neboť existují „superostré“ varianty zahájení (jako je například Traxlerův protiútok), kde boj propuká prakticky bezprostředně, bez větších příprav. Mnoho z nich patří mezi tzv. gambity – zahájení, v nichž jedna ze stran obětuje materiál, aby urychlila svůj vývin a získala poziční převahu.
+        </article>
+        
+        <p class ="text0">Existuje až 1327 šachových zahájeních, zde jsou ty nejznámější:</p>
+        <article class = "zahajeni zahajeni_london">
+            <header class="nadpis2a"> London system</header>
+            <img id="londonIM" class="background_images" src="obrazky/london0.jpeg" >
+            <aside class="text2"> Londýnský systém je otevírací systém v šachu, kde bílý otevírá 1.d4 a rozvíjí střelce s tmavým čtvercem na f4, poté podporuje pěšce d4 pěšci na e3 a c3. Druhý střelec je rozvinut na d3 a jezdci obvykle na f3 a d2. Toto nastavení často vede k uzavřené hře.  
+                <p>  <span id ="d4">1.d4 d5</span> <span id ="Nf3">2.Nf3 Nf6</span> <span id ="Bf4">Bf4</span></p>
+        
+            </p></aside>
+            <div class="sipky">
+                <button class="sipka_vlevo" onclick="changeImageBack()" > <- </button>
+                <button class="sipka_vpravo" onclick = "changeImageNext()"> -></button>
+            
+        
+            </div>
+          
+        
+        </article>
+        
+        <article class = "zahajeni zahajeni_italy">
+            <header class="nadpis2a"> Italská hra</header>
+            <img id="italyIM" class="background_images" src="obrazky/italy0.jpeg" >
+            <aside class="text2">Italská hra je nejstarší v současnosti stále používané otevřené zahájení, studovali ji italští šachisté již v průběhu 16. století. Nabízí spoustu zajímavých kombinačních zápletek spojených s brzkým útokem na krále. Též využívá těch nejklasičtějších strategických obratů. 
+                <p>  <span id ="e4">1. e4 e5</span> <span id ="Jf3">2. Jf3 Jc6</span> <span id ="Sc4">3. Sc4</span></p>
+            </p></aside>
+            <div class="sipky">
+                <button class="sipka_vlevo" onclick="changeImageBackItaly()" > <- </button>
+                <button class="sipka_vpravo" onclick = "changeImageNextItaly()"> -></button>
+            
+        
+            </div>
+          
+        
+        </article>
+        
+        <article class = "zahajeni_france zahajeni">
+            <header class="nadpis2a"> Francouzská obrana</header>
+            <img id="franceIM" class="background_images"  src="obrazky/france0.jpeg" >
+            <aside class="text2">Francouzská obrana je typická tím, že bělopolný střelec černého je často uzavřený. Tento fakt vedl kdysi některé teoretiky k názoru, že zahájení je slabší. Časem se však ukázalo, že francouzská obrana je zahájením plnohodnotným, neboť černý získává dostatečnou protihru.
+        
+                <p >  <span id ="e4-france">1. e4 e5</span> </p>
+            </p></aside>
+            <div class="sipky">
+                <button class="sipka_vlevo" onclick="changeImageBackFrance()" > <- </button>
+                <button class="sipka_vpravo" onclick = "changeImageNextFrance()"> -></button>
+            
+        
+            </div>
+          
+        
+        </article>
+
+</body>
+</html>

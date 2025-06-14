@@ -1,0 +1,222 @@
+.body0 {
+    background-image: url("obrazky/papir.jpg");
+    overflow-x: hidden; /* Skrývá horizontální posuvník */
+    background-size: 100% 100%;
+}
+
+.nadpis0 {
+    text-shadow: 6px 0 0 #000, 0 -1px 0 #000, 0 6px 0 #000, -1px 0 0 #000;
+    background-image: url("obrazky/pozadi.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 200px;
+    font-family: fantasy;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+nav {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: fantasy;
+    font-size: xx-large;
+
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 30px;
+    text-shadow: 3px 0 0 #000, 0 -1px 0 #000, 0 3px 0 #000, -1px 0 0 #000;
+
+
+}
+
+.sachovnice_div {
+    padding: 10px;
+    overflow: hidden; /* Zajišťuje správné obtékání obsahu */
+}
+
+.float-right {
+    float: right;
+    margin: 0 0 10px 10px; /* Přidání okraje mezi obrázkem a textem */
+    max-width: 50%; /* Nastavení maximální šířky obrázku */
+}
+
+.float-left {
+    float: left;
+    margin: 0 10px 10px 0; /* Přidání okraje mezi obrázkem a textem */
+    max-width: 50%; /* Nastavení maximální šířky obrázku */
+}
+
+.text0 {
+    margin: 10px;
+    font-size: 55px;
+}
+
+.uvodni_text {
+    padding: 20px;
+}
+
+#tlacitko_pesec{
+
+    background-image: url("obrazky/pawn.webp");
+
+}
+#tlacitko_kun{
+
+    background-image: url("obrazky/knight.webp");
+
+}
+#tlacitko_strelec{
+
+    background-image: url("obrazky/bishop.webp");
+
+}
+#tlacitko_vez{
+
+    background-image: url("obrazky/rook.webp");
+
+}
+#tlacitko_dama{
+
+    background-image: url("obrazky/queen.webp");
+
+}
+.moves_div{
+
+    width: 100%; /* Zabírá celou šířku okna prohlížeče */
+    height: 500px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin: 0;
+    background-color: #444;
+
+
+    }
+.tlacitko{
+    width: 200px;
+    background-size: 100% 50%;
+    height: 100%;
+    height: 100%;
+}
+
+.nadpis1{
+    text-shadow: 6px 0 0 #000, 0 -1px 0 #000, 0 6px 0 #000, -1px 0 0 #000;
+    background-image: url("obrazky/historie.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 200px;
+    font-family: fantasy;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+.nadpis1a{
+    font-size: 50px;
+    text-align: center;
+    padding-left: 500px;
+    padding-top: 10px;
+
+    margin: 0;
+}
+.text1 {
+    margin: 10px;
+    font-size: 25px;
+}
+.nadpis2{
+    text-shadow: 6px 0 0 #000, 0 -1px 0 #000, 0 6px 0 #000, -1px 0 0 #000;
+    background-image: url("obrazky/zahajeni.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 200px;
+    font-family: fantasy;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.text2 {
+    margin: 10px;
+    font-size: 30px;
+}
+.zahajeni{
+    border-radius: 5px;
+    border-style: double;
+}
+.nadpis2a{
+    font-size: 50px;
+    text-align: left;
+    padding-left: 500px;
+    padding-top: 10px;
+
+    margin: 0;
+}
+.background_images{
+    float: right;
+    padding: 10px;
+    width: 180px;
+  
+
+
+
+}
+.sipka_vlevo{
+    width: 90px;
+    height: 90px;
+    font-size: xx-large;
+    margin-left: 30%;
+    margin-bottom: 10px;
+
+
+}
+.sipka_vpravo{
+    width: 90px;
+    height: 90px;
+    font-size: xx-large;
+    margin-right: 50%;
+    margin-bottom: 10px;
+
+    
+
+}
+.nadpis3{
+    background-image: url("obrazky/hraci.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: black;
+    color: rgb(216, 185, 9);
+    text-align: center;
+    padding: 10px;
+    font-size: 150px;
+    font-family: fantasy;
+    text-shadow: 6px 0px 0px #000;
+    margin: 0px;
+
+}
+.nadpis5{
+    background-image: url("obrazky/sam.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: black;
+    color: rgb(216, 185, 9);
+    text-align: center;
+    padding: 10px;
+    font-size: 150px;
+    font-family: fantasy;
+    text-shadow: 6px 0px 0px #000;
+    margin: 0px;
+}
+.nadpis5a{
+    text-align: center;
+    font-size: 50px;
+}

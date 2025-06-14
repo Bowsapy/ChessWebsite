@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" id="themeStylesheet" href="style.css">
+    <link rel="icon" href="obrazky/strategy.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Šachy</title>
+    <script src="script.js"></script>
+</head>
+
+<body class="body0">
+    <header>
+        <h1 class="nadpis0">Základní info</h1>
+    </header>
+    <nav>
+        <a href="index.html">Úvod</a>
+        <a href="historie.html">Historie</a>
+        <a href="zahajeni.html">Zahájení</a>
+        <a href="hraci.html">Nejlepší hráči</a>
+        <a href="vliv.html">Benefity hraní šachu</a>
+    </nav>
+    <div>
+        <p class="text0 uvodni_text">Šachy neboli šach (z perského šáh, panovník) jsou desková hra pro dva hráče, v dnešní soutěžní podobě zároveň považovaná i za odvětví sportu. Cílem hry je mat, napadení soupeřova krále, kde král již nemá žádný tah, aby se vyhnul šachu.</p>
+    </div>
+
+    <div class="sachovnice_div">
+        <img class="sachovniceIMG float-right" src="obrazky/sachovnice.jpg" alt="Šachovnice">
+        <p class="text0 texty_pod_obrazky">Šachy se hrají na šachovnici, čtvercové desce rozdělené na 8×8 polí střídavě černých a bílých. </p>
+    </div>
+
+    <div class="sachovnice_div">
+        <img class="figurkyIMG float-left" src="obrazky/figury2.jpg" alt="Šachové figurky">
+        <p class="text0 texty_pod_obrazky">Celkem je 6 druhů šachových figurek: král, dáma, věž, střelec, jezdec a pěšec. Oba hráči (bílý i černý) mají na začátku partie tyto figurky: 1 krále, 1 dámu, 2 věže, 2 střelce, 2 jezdce a 8 pěšců.</p>
+    </div>
+    <div class="moves_div" >
+
+        <img class="moves" id="moves_img" src="obrazky/pesec.png" >
+        <button type="button" class="tlacitko" id="tlacitko_pesec"onclick=changeMoveImage(this)> </button>
+        <button type= "button"class="tlacitko"  id="tlacitko_kun" onclick=changeMoveImage(this)></button>
+        <button type="button"class="tlacitko" id="tlacitko_strelec" onclick=changeMoveImage(this)></button>
+        <button type="button"class="tlacitko" id="tlacitko_vez" onclick=changeMoveImage(this)> </button>
+        <button type="button"class="tlacitko" id="tlacitko_dama" onclick=changeMoveImage(this)></button>
+      
+    </div>
+    <p class = "text0" id="moves_text">    Pěšci jsou neobvyklí v tom, že se pohybují jinak, než berou soupeřovy figury: pohybují se dopředu, ale berou úhlopříčně. Mohou se posouvat pouze o jedno pole, kromě svého prvního tahu, kdy mohou i o dvě políčka. Pěšci vyhazují jedině v prostoru jednoho pole šikmo před sebou. Nikdy nesmí táhnout ani brát směrem nazpět. Pokud přímo před pěšcem stojí jiná figurka, pěšec ji nemůže obejít ani sebrat.
+    </p>
+
+</body>
+</html>
