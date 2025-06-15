@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #bac7d3;
-    background-image: url("obrazky/drevo.jpg");
+    background-image: url("../images/drevo.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     overflow-x: hidden; /* Skrývá horizontální posuvník */
@@ -28,7 +28,7 @@ p {
 }
 body header {
     text-shadow: 6px 0 0 #000, 0 -1px 0 #000, 0 6px 0 #000, -1px 0 0 #000;
-    background-image: url("obrazky/sam.webp");
+    background-image: url("../images/sam.webp");
     background-size: 1300px 400px;
     background-repeat: no-repeat;
     color: rgb(97, 79, 71);
@@ -71,7 +71,7 @@ h2{
     text-decoration: underline;
 }
 div{
-    background-image: url("obrazky/papir.jpg");
+    background-image: url("../images/papir.jpg");
     background-size: 100% 100%;
 
 

@@ -17,23 +17,23 @@ function changeMoveImage(button) {
     const pieces = {
         tlacitko_pesec: {
             text: 'Pěšci jsou neobvyklí v tom, že se pohybují jinak...',
-            img: 'obrazky/pesec.png'
+            img: 'images/pesec.png'
         },
         tlacitko_kun: {
             text: 'Jezdcem se táhne úplně jinak než ostatními figurami...',
-            img: 'obrazky/kun.png'
+            img: 'images/kun.png'
         },
         tlacitko_dama: {
             text: 'Dáma je nejsilnější figura...',
-            img: 'obrazky/dama.png'
+            img: 'images/dama.png'
         },
         tlacitko_vez: {
             text: 'Věž se může pohybovat o libovolný počet polí...',
-            img: 'obrazky/vez.png'
+            img: 'images/vez.png'
         },
         tlacitko_strelec: {
             text: 'Střelec se může pohybovat libovolně daleko...',
-            img: 'obrazky/strelec.png'
+            img: 'images/strelec.png'
         }
     };
 
@@ -76,7 +76,7 @@ function changeImage(galleryId, imageArray, moveIds, direction) {
 
 function changeImageNext() {
     changeImage("londonIM",
-        ["obrazky/london0.jpeg", "obrazky/london1.jpeg", "obrazky/london2.jpeg", "obrazky/london3.jpeg"],
+        ["images/london0.jpeg", "images/london1.jpeg", "images/london2.jpeg", "images/london3.jpeg"],
         ["", "d4", "Nf3", "Bf4"],
         "next"
     );
@@ -84,7 +84,7 @@ function changeImageNext() {
 
 function changeImageBack() {
     changeImage("londonIM",
-        ["obrazky/london0.jpeg", "obrazky/london1.jpeg", "obrazky/london2.jpeg", "obrazky/london3.jpeg"],
+        ["images/london0.jpeg", "images/london1.jpeg", "images/london2.jpeg", "images/london3.jpeg"],
         ["", "d4", "Nf3", "Bf4"],
         "back"
     );
@@ -92,7 +92,7 @@ function changeImageBack() {
 
 function changeImageNextItaly() {
     changeImage("italyIM",
-        ["obrazky/italy0.jpeg", "obrazky/italy1.jpeg", "obrazky/italy2.jpeg", "obrazky/italy3.jpeg"],
+        ["images/italy0.jpeg", "images/italy1.jpeg", "images/italy2.jpeg", "images/italy3.jpeg"],
         ["", "e4", "Jf3", "Sc4"],
         "next"
     );
@@ -100,7 +100,7 @@ function changeImageNextItaly() {
 
 function changeImageBackItaly() {
     changeImage("italyIM",
-        ["obrazky/italy0.jpeg", "obrazky/italy1.jpeg", "obrazky/italy2.jpeg", "obrazky/italy3.jpeg"],
+        ["images/italy0.jpeg", "images/italy1.jpeg", "images/italy2.jpeg", "images/italy3.jpeg"],
         ["", "e4", "Jf3", "Sc4"],
         "back"
     );
@@ -108,7 +108,7 @@ function changeImageBackItaly() {
 
 function changeImageNextFrance() {
     changeImage("franceIM",
-        ["obrazky/france0.jpeg", "obrazky/france1.jpeg"],
+        ["images/france0.jpeg", "images/france1.jpeg"],
         ["", "e4-france"],
         "next"
     );
@@ -116,7 +116,7 @@ function changeImageNextFrance() {
 
 function changeImageBackFrance() {
     changeImage("franceIM",
-        ["obrazky/france0.jpeg", "obrazky/france1.jpeg"],
+        ["images/france0.jpeg", "images/france1.jpeg"],
         ["", "e4-france"],
         "back"
     );

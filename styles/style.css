@@ -1,12 +1,12 @@
 .body0 {
-    background-image: url("obrazky/papir.jpg");
+    background-image: url("../images/papir.jpg");
     overflow-x: hidden; /* Skrývá horizontální posuvník */
     background-size: 100% 100%;
 }
 
 .nadpis0 {
     text-shadow: 6px 0 0 #000, 0 -1px 0 #000, 0 6px 0 #000, -1px 0 0 #000;
-    background-image: url("obrazky/pozadi.jpg");
+    background-image: url("../images/pozadi.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: black;
@@ -65,27 +65,27 @@ nav a {
 
 #tlacitko_pesec{
 
-    background-image: url("obrazky/pawn.webp");
+    background-image: url("../images/pawn.webp");
 
 }
 #tlacitko_kun{
 
-    background-image: url("obrazky/knight.webp");
+    background-image: url("../images/knight.webp");
 
 }
 #tlacitko_strelec{
 
-    background-image: url("obrazky/bishop.webp");
+    background-image: url("../images/bishop.webp");
 
 }
 #tlacitko_vez{
 
-    background-image: url("obrazky/rook.webp");
+    background-image: url("../images/rook.webp");
 
 }
 #tlacitko_dama{
 
-    background-image: url("obrazky/queen.webp");
+    background-image: url("../images/queen.webp");
 
 }
 .moves_div{
@@ -108,7 +108,7 @@ nav a {
 
 .nadpis1{
     text-shadow: 6px 0 0 #000, 0 -1px 0 #000, 0 6px 0 #000, -1px 0 0 #000;
-    background-image: url("obrazky/historie.jpg");
+    background-image: url("../images/historie.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: black;
@@ -134,7 +134,7 @@ nav a {
 }
 .nadpis2{
     text-shadow: 6px 0 0 #000, 0 -1px 0 #000, 0 6px 0 #000, -1px 0 0 #000;
-    background-image: url("obrazky/zahajeni.png");
+    background-image: url("../images/zahajeni.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: black;
@@ -190,7 +190,7 @@ nav a {
 
 }
 .nadpis3{
-    background-image: url("obrazky/hraci.jpg");
+    background-image: url("../images/hraci.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-color: black;
@@ -204,7 +204,7 @@ nav a {
 
 }
 .nadpis5{
-    background-image: url("obrazky/sam.webp");
+    background-image: url("../images/sam.webp");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-color: black;
